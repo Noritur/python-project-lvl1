@@ -1,5 +1,6 @@
-import prompt
+import prompt  # Prompt and verify user input on the command line.
+
 
 def welcome_user():
-    name = prompt.string('May I have your name? ')
+    name = prompt.string('May I have your name?')
     print(f'Hello, {name}!')
