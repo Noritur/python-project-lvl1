@@ -9,6 +9,10 @@ def even_terms():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
+def gcd_terms():
+    print('Find the greatest common divisor of given numbers.')
+
+
 def calc_terms():
     print('What is the result of the expression?')
 
