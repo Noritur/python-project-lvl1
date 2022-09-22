@@ -17,6 +17,10 @@ def calc_terms():
     print('What is the result of the expression?')
 
 
+def progression_terms():
+    print('What number is missing in the progression?')
+
+
 def welcome_user():
     name = prompt.string('May I have your name?')
     print(f'Hello, {name}!')
