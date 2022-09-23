@@ -21,6 +21,10 @@ def progression_terms():
     print('What number is missing in the progression?')
 
 
+def prime_terms():
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+
+
 def welcome_user():
     name = prompt.string('May I have your name?')
     print(f'Hello, {name}!')
