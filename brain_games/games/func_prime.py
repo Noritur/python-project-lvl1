@@ -1,7 +1,6 @@
 from random import randint
 
 import prompt
-
 from brain_games.cli import prime_terms
 
 
@@ -12,11 +11,11 @@ def prime_game():
     count = 0
     while count <= 2:
         random_number = randint(1, 102)
-        count_2 = 0
-        for i in range(2, random_number // 2 + 1):
-            if (random_number % i == 0):
-                count_2 += 1
-        if (count_2 <= 0):
+        count2 = 0
+        for index in range(2, random_number // 2 + 1):
+            if (random_number % index == 0):
+                count2 += 1
+        if (count2 <= 0):
             correct_answer = 'yes'
         else:
             correct_answer = 'no'

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-
 from brain_games.cli import welcome_brain_games
-
 from brain_games.games.func_gcd import gcd_game
 
 
