@@ -20,7 +20,7 @@ def progression_game():
         answer.sort
         right_answer = randint(0, 9)
         correct_answer = answer[right_answer]
-        answer[right_answer] = '...'
+        answer[right_answer] = '..'
         question = ' '.join(map(str, answer[0:10]))
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
