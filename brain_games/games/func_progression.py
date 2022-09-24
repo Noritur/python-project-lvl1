@@ -17,6 +17,7 @@ def progression_game():
         question_number = range(random_num1, random_num2, random_progress)
         for numbers_correct in question_number:
             answer.append(numbers_correct)
+        answer.sort
         right_answer = randint(0, 9)
         correct_answer = answer[right_answer]
         answer[right_answer] = '...'
