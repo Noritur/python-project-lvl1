@@ -24,4 +24,6 @@ def prime_game():
         if answer == str(correct_answer):
             print('Correct!')
             count += 1
+        else:
+            return
     return print(f'Congratulations, {name}!')
