@@ -5,26 +5,22 @@ def welcome_brain_games():
     print('Welcome to the Brain Games!')
 
 
-def even_terms():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+name = prompt.string('May I have your name? ')
 
 
-def gcd_terms():
-    print('Find the greatest common divisor of given numbers.')
+prime_terms = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def calc_terms():
-    print('What is the result of the expression?')
+when_wrong_answer = ' is wrong answer ;(. Correct answer was '
 
 
-def progression_terms():
-    print('What number is missing in the progression?')
+even_terms = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def prime_terms():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+gcd_terms = 'Find the greatest common divisor of given numbers.'
 
 
-def welcome_user():
-    name = prompt.string('May I have your name?')
-    print(f'Hello, {name}!')
+calc_terms = 'What is the result of the expression?'
+
+
+progression_terms = 'What number is missing in the progression?'

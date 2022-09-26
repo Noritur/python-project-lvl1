@@ -1,13 +1,13 @@
 from random import randint
 
 import prompt
-from brain_games.cli import prime_terms
+from brain_games.cli import prime_terms, name
 
 
 def prime_game():
-    name = prompt.string('May I have your name? ')
+    name
     print(f'Hello, {name}!')
-    prime_terms()
+    print(prime_terms)
     count = 0
     while count <= 2:
         random_number = randint(1, 102)

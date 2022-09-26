@@ -2,14 +2,13 @@ import math
 from random import randint
 
 import prompt
-from brain_games.cli import gcd_terms
+from brain_games.cli import gcd_terms, when_wrong_answer, name
 
 
 def gcd_game():
-    name = prompt.string('May I have your name? ')
+    name
     print(f'Hello, {name}!')
-    when_wrong_answer = ' is wrong answer ;(. Correct answer was '
-    gcd_terms()
+    print(gcd_terms)
     count = 0
     while count <= 2:
         rand_number1 = randint(1, 100)

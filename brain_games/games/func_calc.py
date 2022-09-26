@@ -1,14 +1,13 @@
 from random import choice, randint
 
 import prompt
-from brain_games.cli import calc_terms
+from brain_games.cli import calc_terms, when_wrong_answer, name
 
 
 def calc_game():
-    name = prompt.string('May I have your name? ')
+    name
     print(f'Hello, {name}!')
-    when_wrong_answer = ' is wrong answer ;(. Correct answer was '
-    calc_terms()
+    print(calc_terms)
     count = 0
     while count <= 2:
         operator = ['-', '+', '*']

@@ -1,14 +1,13 @@
 from random import randint
 
 import prompt
-from brain_games.cli import progression_terms
+from brain_games.cli import progression_terms, when_wrong_answer, name
 
 
 def progression_game():
-    name = prompt.string('May I have your name? ')
+    name
     print(f'Hello, {name}!')
-    when_wrong_answer = ' is wrong answer ;(. Correct answer was '
-    progression_terms()
+    print(progression_terms)
     count = 0
     while count <= 2:
         random_num1 = randint(3, 10)
