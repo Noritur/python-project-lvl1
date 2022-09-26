@@ -7,6 +7,7 @@ from brain_games.cli import progression_terms
 def progression_game():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    when_wrong_answer = ' is wrong answer ;(. Correct answer was '
     progression_terms()
     count = 0
     while count <= 2:
@@ -28,5 +29,6 @@ def progression_game():
             print('Correct!')
             count += 1
         else:
-            return print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+            return print(f'''"{answer}"{when_wrong_answer}'{correct_answer}'.
+Let's try again, {name}!''')
     return print(f'Congratulations, {name}!')

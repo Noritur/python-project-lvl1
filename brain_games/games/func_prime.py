@@ -24,7 +24,10 @@ def prime_game():
         if answer == str(correct_answer):
             print('Correct!')
             count += 1
+<<<<<<< HEAD
         else:
             print(f"Let's try again, {name}!")
             return
+=======
+>>>>>>> ea5fea1 (fix, in all games, string with wrong answer, flake e501)
     return print(f'Congratulations, {name}!')

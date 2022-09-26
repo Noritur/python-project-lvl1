@@ -7,6 +7,7 @@ from brain_games.cli import even_terms
 def even_game():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    when_wrong_answer = ' is wrong answer ;(. Correct answer was '
     even_terms()
     count = 0
     while count <= 2:
@@ -21,5 +22,6 @@ def even_game():
             print('Correct!')
             count += 1
         else:
-            return print(f"'{answer}' is wrong answer ;(. Correct answer was '{even_or_not}'.\nLet's try again, {name}!")
+            return print(f'''"{answer}"{when_wrong_answer}'{even_or_not}'.
+Let's try again, {name}!''')
     return print(f'Congratulations, {name}!')
