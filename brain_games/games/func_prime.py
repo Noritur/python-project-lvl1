@@ -1,7 +1,7 @@
 from random import randint
 
 import prompt
-from brain_games.terms_and_name import prime_terms, name
+from brain_games.terms_name import prime_terms, name
 
 
 def prime_game():

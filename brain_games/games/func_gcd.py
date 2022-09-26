@@ -2,7 +2,7 @@ import math
 from random import randint
 
 import prompt
-from brain_games.terms_and_name import gcd_terms, when_wrong_answer, name
+from brain_games.terms_name import gcd_terms, when_wrong_answer, name
 
 
 def gcd_game():
