@@ -1,7 +1,7 @@
 from random import randint
 
 import prompt
-from brain_games.cli import progression_terms, when_wrong_answer, name
+from brain_games.terms_and_name import progression_terms, when_wrong_answer, name
 
 
 def progression_game():

@@ -1,7 +1,7 @@
 from random import choice, randint
 
 import prompt
-from brain_games.cli import calc_terms, when_wrong_answer, name
+from brain_games.terms_and_name import calc_terms, when_wrong_answer, name
 
 
 def calc_game():
