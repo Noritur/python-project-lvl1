@@ -1,7 +1,7 @@
 from random import randint
 
 import prompt
-from brain_games.terms_name import even_terms, when_wrong_answer, name
+from brain_games.terms_name import even_terms, name, when_wrong_answer
 
 
 def even_game():
