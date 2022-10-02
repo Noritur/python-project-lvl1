@@ -5,7 +5,7 @@ from brain_games.terms_name import prime_terms, name
 
 
 def prime_game():
-    name
+    name    # Input user name
     print(f'Hello, {name}!')
     print(prime_terms)
     count = 0

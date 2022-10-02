@@ -5,7 +5,7 @@ from brain_games.terms_name import even_terms, name, when_wrong_answer
 
 
 def even_game():
-    name
+    name    # Input user name
     print(f'Hello, {name}!')
     print(even_terms)
     count = 0

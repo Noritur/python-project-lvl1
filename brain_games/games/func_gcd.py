@@ -6,7 +6,7 @@ from brain_games.terms_name import gcd_terms, name, when_wrong_answer
 
 
 def gcd_game():
-    name
+    name    # Input user name
     print(f'Hello, {name}!')
     print(gcd_terms)
     count = 0

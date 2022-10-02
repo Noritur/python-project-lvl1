@@ -5,7 +5,7 @@ from brain_games.terms_name import calc_terms, name, when_wrong_answer
 
 
 def calc_game():
-    name
+    name    # Input user name
     print(f'Hello, {name}!')
     print(calc_terms)
     count = 0
