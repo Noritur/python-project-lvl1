@@ -1,8 +1,3 @@
-import prompt
-
-
-name = prompt.string('May I have your name? ')
-
 
 prime_terms = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 

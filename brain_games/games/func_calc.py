@@ -1,11 +1,11 @@
 from random import choice, randint
 
 import prompt
-from brain_games.terms_name import calc_terms, name, when_wrong_answer
+from brain_games.terms_name import calc_terms, when_wrong_answer
 
 
 def calc_game():
-    name    # Input user name
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(calc_terms)
     count = 0

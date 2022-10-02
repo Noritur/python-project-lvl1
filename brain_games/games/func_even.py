@@ -1,11 +1,11 @@
 from random import randint
 
 import prompt
-from brain_games.terms_name import even_terms, name, when_wrong_answer
+from brain_games.terms_name import even_terms, when_wrong_answer
 
 
 def even_game():
-    name    # Input user name
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(even_terms)
     count = 0
