@@ -6,7 +6,7 @@ when_wrong_answer = ' is wrong answer ;(. Correct answer was '
 
 
 def even_terms():
-    print('Answer "yes" if number even, otherwise answer "no".')
+    print('Answer "yes" if number even, .')
 
 
 gcd_terms = 'Find the greatest common divisor of given numbers.'
