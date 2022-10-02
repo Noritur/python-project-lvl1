@@ -7,7 +7,7 @@ from brain_games.terms_name import even_terms, when_wrong_answer
 def even_game():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(even_terms)
+    even_terms()
     count = 0
     while count <= 2:
         random_number = randint(1, 200)
