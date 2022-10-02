@@ -21,6 +21,6 @@ def even_game():
             print('Correct!')
             count += 1
         else:
-            return print(f'''"{answer}"{when_wrong_answer}'{even_or_not}'.
-Let's try again, {name}!''')
+            print(f"'{answer}'{when_wrong_answer}'{even_or_not}'.")
+            print(f"Let's try again, {name}!")
     return print(f'Congratulations, {name}!')

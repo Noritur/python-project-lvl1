@@ -17,17 +17,16 @@ def progression_game():
         question_number = range(random_num1, random_num2, random_progress)
         for numbers_correct in question_number:
             answer.append(numbers_correct)
-        answer.sort
         right_answer = randint(0, 9)
         correct_answer = answer[right_answer]
         answer[right_answer] = '..'
-        question = ' '.join(map(str, answer[0:10]))
+        question = ' '.join(map(str, answer[:10]))
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == str(correct_answer):
             print('Correct!')
             count += 1
         else:
-            return print(f'''"{answer}"{when_wrong_answer}'{correct_answer}'.
-Let's try again, {name}!''')
+            print(f"'{answer}'{when_wrong_answer}'{correct_answer}'.")
+            print(f"Let's try again, {name}!")
     return print(f'Congratulations, {name}!')
