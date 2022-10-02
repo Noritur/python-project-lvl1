@@ -29,4 +29,5 @@ def progression_game():
         else:
             print(f"'{answer}'{when_wrong_answer}'{correct_answer}'.")
             print(f"Let's try again, {name}!")
+            return
     return print(f'Congratulations, {name}!')
