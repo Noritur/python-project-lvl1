@@ -26,4 +26,5 @@ def prime_game():
             count += 1
         else:
             print(f"Let's try again, {name}!")
+            return
     return print(f'Congratulations, {name}!')
