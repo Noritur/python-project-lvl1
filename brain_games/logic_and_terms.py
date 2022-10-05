@@ -10,8 +10,9 @@ def answers(question, correct_answer):
     if correct_answer == str(answer):
         print('Correct!')
         return True
-    print(f"'{answer}'{when_wrong_answer}'{correct_answer}'.")
-    return False
+    else:
+        print(f"'{answer}'{when_wrong_answer}'{correct_answer}'.")
+        return False
 
 
 def start(game):
@@ -24,6 +25,6 @@ def start(game):
             count += 1
         else:
             print(f"Let's try again, {name}!")
-        return
+        break
     else:
         print(f'Congratulations, {name}!')
