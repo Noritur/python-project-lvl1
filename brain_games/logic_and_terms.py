@@ -25,6 +25,6 @@ def start(game):
             count += 1
         else:
             print(f"Let's try again, {name}!")
-        break
+            break
     else:
         print(f'Congratulations, {name}!')
