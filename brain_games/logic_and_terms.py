@@ -3,6 +3,8 @@ from brain_games.cli import welcome_user
 
 when_wrong_answer = ' is wrong answer ;(. Correct answer was '
 
+prime_terms = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def answers(question, correct_answer):
     print(f'Question: {question}')
@@ -23,6 +25,8 @@ def start(game):
         question, correct_answer = game.logic_game()
         if answers(question, correct_answer):
             count += 1
+        elif game.GAME_TERMS == prime_terms:
+            print(f"Let's try again, {name}!")
         else:
             print(f"Let's try again, {name}!")
             break
