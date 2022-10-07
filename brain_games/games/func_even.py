@@ -6,7 +6,8 @@ GAME_TERMS = 'Answer "yes" if the number is even, otherwise answer "no".'
 def is_even_game(question):
     if question % 2 == 0:
         return 'yes'
-    return 'no'
+    else:
+        return 'no'
 
 
 def logic_game():
