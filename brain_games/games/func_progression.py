@@ -12,7 +12,7 @@ def logic_game():
     for numbers_correct in question_number:
         answer.append(numbers_correct)
     right_answer = randint(0, 9)
-    correct_answer = answer[right_answer]
+    correct_answer = str(answer[right_answer])
     answer[right_answer] = '..'
     question = ' '.join(map(str, answer[:10]))
     return question, correct_answer
