@@ -25,8 +25,6 @@ def start(game):
         question, correct_answer = game.logic_game()
         if answers(question, correct_answer):
             count += 1
-        elif game.GAME_TERMS == prime_terms:
-            print(f"Let's try again, {name}!")
         else:
             print(f"Let's try again, {name}!")
             break
