@@ -4,16 +4,16 @@
 src="https://api.codeclimate.com/v1/badges/8199882c98b85a32b412/maintainability" /></a>
 
 #brain-even
-https://asciinema.org/a/518609
+https://asciinema.org/a/527137
 
 #brain-calc
-https://asciinema.org/a/518771
+https://asciinema.org/a/527138
 
 #brain-gcd
-https://asciinema.org/a/518881
+https://asciinema.org/a/527142
 
 #brain-progression
-https://asciinema.org/a/523234
+https://asciinema.org/a/527145
 
 #brain-prime
-https://asciinema.org/a/523407
+https://asciinema.org/a/527147
