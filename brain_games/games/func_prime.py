@@ -11,7 +11,7 @@ def is_prime_game(random_number):
 
 
 def logic_game():
-    random_number = randint(1, 102)
+    random_number = randint(2, 102)
     question = random_number
     correct_answer = str(is_prime_game(random_number))
     return question, correct_answer
